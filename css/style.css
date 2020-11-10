@@ -27,7 +27,7 @@ body {
     /* background-image: url(./images/title.jpg); */
     /* background-size: cover; */
     /* background-position: center; */
-    margin-bottom: 70px;
+    margin-bottom: 30px;
 }
 #main_img{
     width: 100%;
@@ -43,7 +43,7 @@ body {
     border-left: 2px solid black;
     /* margin-left: 10px; */
     margin-bottom: 20px;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: 5px;
 }
 #main_text h1{
