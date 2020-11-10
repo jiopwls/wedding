@@ -31,11 +31,12 @@ body {
 }
 #main_img{
     width: 100%;
-    height: 60vh;
+    height: 70vh;
     /* 이미지 규격-최소 750px x 1334px */
     background-image: url(../images/title.png);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 #main_text {
     width: 30px; height: 110px;
@@ -67,9 +68,7 @@ body {
     border-top: 2px solid black;
     padding-top: 20px;
 }
-#sub_1 h3 {
-    margin-bottom: 45px;
-}
+#sub_1 h3 {margin-bottom: 45px;}
 #sub_1 p {
     margin-bottom: 35px;
     line-height: 1.7em;
@@ -101,17 +100,19 @@ body {
 #phone {
     width: 330px;
     margin: 0 auto;
-    font-size: 24px;
+    font-size: 18px;
     margin-top: 40px;
     margin-bottom: 40px;
     /* font-family: 'Nanum Gothic', sans-serif; */
     font-weight: bold;
+    text-align: center;
 }
 #phone div {
     /* width: 200px; */
     float: left;
     margin-bottom: 20px;
-
+    /* outline: 1px solid blue; */
+    margin-left: 20px;
 }
 #phone div i{
     font-size: 40px;
@@ -163,7 +164,7 @@ body {
     /* margin-bottom: 10px; */
 }
 #wedding_img div img{
-    height: 200px;
+    height: 180px;
     margin-bottom: 10px;
 }
 /* #wedding_img > div:nth-child(3n) {margin-right: 0;
