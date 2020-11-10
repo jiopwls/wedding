@@ -76,6 +76,10 @@ body {
     margin-bottom: 45px;
 }
 .intro strong {font-size: 18px;}
+#sub_2 {
+    position: relative;
+    width: 100%;
+}
 #sub_2_img {
     background-image: url(../images/21.png);
     width: 100%;
@@ -83,7 +87,7 @@ body {
     background-size: cover;
     background-position: center;
 }
-#sub_2_img p{
+#sub_2 p{
     text-align: center;
     line-height: 300px;
     font-size: 30px;
