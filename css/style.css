@@ -58,7 +58,7 @@ body {
 }
 #sub_1 {
     margin: 0 auto;
-    width: 450px;
+    width: 350px;
     text-align: center;
     border-top: 2px solid black;
     padding-top: 20px;
@@ -86,7 +86,7 @@ body {
 #sub_2_img p{
     text-align: center;
     line-height: 300px;
-    font-size: 40px;
+    font-size: 30px;
     color: #fff;
 }
 #phone {
@@ -128,6 +128,7 @@ body {
     /* outline: 1px solid red; */
     margin: 0 auto;
     margin-top: 200px;
+    padding-left: 20px;
 }
 #wedding_img h2 {
     text-align: center;
@@ -141,18 +142,39 @@ body {
     /* margin-right: 10px; */
     /* margin-bottom: 10px; */
 }
-#wedding_img div:nth-child(3n) {
-    margin-right: 0;
+#wedding_img div img{
+    height: 300px;
+    margin-bottom: 10px;
 }
-#wedding_img img:nth-child(3n){margin-right: 0;}
+/* #wedding_img > div:nth-child(3n) {margin-right: 0;
+margin-left: 0;} */
+/* #wedding_img >img:nth-child(3n){margin-right: 0;} */
 .img_text{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 15px;
 }
-#map {
-    margin-top: 60px;
-}
+#map {margin-top: 60px;}
 #map h2 {
     text-align: center;
     margin-bottom: 20px;
+}
+.map_text {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.map_text,.map_text2{
+    background: rgb(230, 230, 230);
+    padding: 10px 10px;
+}
+.map_text article, .map_text2 article {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.map_text h3, .map_text2 h3{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.map_text p, .map_text2 p {
+    color: rgb(56, 56, 56);
 }
