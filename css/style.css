@@ -1,22 +1,33 @@
 *{
     margin: 0; padding: 0;
     box-sizing: border-box;
+    /* background: ivory; */
+    /* background: rgb(255, 255, 233); */
+    /* background: seashell; */
+    /* background: papayawhip; */
+    /* background: mistyrose; */
+    /* background: mintcream; */
+    /* z-index: -99999; */
 }
 ul {list-style-type: none;}
 a {text-decoration: none;}
 body {
     /* font-family: 'Nanum Gothic', sans-serif; */
     font-family: 'Nanum Myeongjo', serif;
-    /* margin: 0 auto; */
+    margin: 0 auto;
+    font-size: 14px;
 }
+.img-responsive {width: 100%;}
 #main {
-    /* width: 100%; */
+    position: relative;
+    width: 100%;
     /* height: 100%; */
-    /* height: 100vh; 디바이스 높이의 100% */
+    height: 100vh; /*디바이스 높이의 100%*/
     /* background: #ccc; */
     /* background-image: url(./images/title.jpg); */
     /* background-size: cover; */
     /* background-position: center; */
+    margin-bottom: 100px;
 }
 #main_img{
     width: 100%;
@@ -26,17 +37,12 @@ body {
     background-size: cover;
     background-position: center;
 }
-/* #main > .title_text > h1 {
-    margin-bottom: 1em;
-    margin-top: 1em;
-}
-.address {margin-bottom: 1em;} */
 #main_text {
     width: 30px; height: 110px;
     border-left: 2px solid black;
     /* margin-left: 10px; */
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 #main_text h1{
     margin-left: 15px;
@@ -48,14 +54,14 @@ body {
     margin-top: 20px;
     border-right: 2px solid black;
     padding-right: 15px;
-    margin-bottom: 100px;
+
 }
 #sub_1 {
     margin: 0 auto;
     width: 450px;
     text-align: center;
     border-top: 2px solid black;
-    padding-top: 15px;
+    padding-top: 20px;
 }
 #sub_1 h3 {
     margin-bottom: 45px;
@@ -65,7 +71,7 @@ body {
     line-height: 1.7em;
 }
 .intro {
-    width: 230px;
+    width: 220px;
     margin: 0 auto;
     margin-bottom: 45px;
 }
@@ -80,7 +86,7 @@ body {
 #sub_2_img p{
     text-align: center;
     line-height: 300px;
-    font-size: 50px;
+    font-size: 40px;
     color: #fff;
 }
 #phone {
@@ -118,27 +124,35 @@ body {
     margin-left: -20px;
 }
 #wedding_img {
-    width: 900px;
+    width: 100%;
     /* outline: 1px solid red; */
     margin: 0 auto;
     margin-top: 200px;
 }
+#wedding_img h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
 #wedding_img div {
-    width: 290px;
-    height: 375px;
+    /* width: 290px; */
+    /* height: 375px; */
     /* outline: 1px solid blue; */
     float: left;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    /* margin-right: 10px; */
+    /* margin-bottom: 10px; */
 }
 #wedding_img div:nth-child(3n) {
     margin-right: 0;
 }
-#wedding_img img {
-    width: 290px;
-    margin-right: 10px;
-    /* height: 400px; */
-    height: 375px;
-}
 #wedding_img img:nth-child(3n){margin-right: 0;}
-.img-responsive {width: 100%;}
+.img_text{
+    text-align: center;
+    margin-top: 20px;
+}
+#map {
+    margin-top: 60px;
+}
+#map h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
