@@ -9,35 +9,26 @@
     <!-- 웹폰트 -->
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&family=Nanum+Myeongjo:wght@400;700&display=swap" rel="stylesheet">
     <!-- 팝업 -->
-    <link rel="stylesheet" href="magnific-popup.css">
+    <link rel="stylesheet" href="./css/magnific-popup.css">
     <!-- 스타일시트 -->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/grid.css">
     <!-- 제이쿼리 -->
-    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="./js/jquery-3.5.1.min.js"></script>
     <!-- 팝업 -->
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
-<script src="jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.magnific-popup.min.js"></script>
     <!-- 외부 스크립트 -->
     <script src="./js/main.js"></script>
 </head>
 <body>
     <section id="main">
-        <!-- <div class="title_text">
-            <h1>겨울날의 웨딩마치</h1>
-            <p class="name">
-                김<span>&amp;</span>정ㅇㅇ
-            </p>
-            <p class="date">2020.12.19 <span>pm</span>2:00</p>
-            <p class="address">화곡 웨딩홀</p>
-        </div> -->
         <div id="main_text">
             <h1>11月14日</h1>
         </div>
         <div id="main_img">
-            <!-- <img src="./" alt=""> -->
         </div>
         <div id="sub_text">
-            <h2>김ㅇㅇ / 정ㅇㅇ</h2>
+            <h2>정원영 / 김지은</h2>
             <p>토요일 오후 4시</p>
             <p>웨딩시그니처 4층 아너스 홀</p>
         </div>
@@ -54,8 +45,8 @@
             부득이 오시지 못하시더라도 <br> 귀한 마음으로 축하해 주시면 <br> 더 없는 기쁨으로 소중하게 간직하겠습니다.
         </p>
         <p class="intro">
-            <strong>김길동ㆍ이숙자</strong>의 장남 <strong>ㅇㅇ</strong>
-            <strong>정국진ㆍ최미영</strong>의 장녀 <strong>ㅁㅁ</strong>
+            <strong>정길동ㆍ최미영</strong>의 장남 <strong>원영</strong>
+            <strong>김국진ㆍ이희연</strong>의 장녀 <strong>지은</strong>
         </p>
     </section>
     <section id="sub_2">
@@ -72,46 +63,49 @@
         <p><i class="fa fa-commenting-o" aria-hidden="true"></i></p>
     </div>
     </section>
-    <!-- <section id="wedding_img">
-        <img src="./images/wedding1.jpg" alt="웨딩사진1">
-        <img src="./images/wedding2.jpg" alt="웨딩사진2">
-        <img src="./images/wedding3.jpg" alt="웨딩사진3">
-        <img src="./images/wedding4.jpg" alt="웨딩사진4">
-        <img src="./images/wedding5.jpg" alt="웨딩사진5">
-        <img src="./images/wedding6.jpg" alt="웨딩사진6">
-        <img src="./images/wedding7.jpg" alt="웨딩사진7">
-        <img src="./images/wedding8.jpg" alt="웨딩사진8">
-        <img src="./images/wedding9.jpg" alt="웨딩사진9">
-    </section> -->
-    <section id="wedding_img">
-        <div class="wi1">
-            <img src="./images/wedding1.jpg" alt="웨딩사진1" class="img-responsive">
+    <section id="wedding_img" class="row">
+        <h2>갤 러 리</h2>
+        <div class="col_4 wi1">
+            <img src="./images/wedding1.png" alt="웨딩사진1" class="img-responsive">
         </div>
-        <div class="wi2">
-            <img src="./images/wedding2.jpg" alt="웨딩사진2"            class="img-responsive">
+        <div class="col_4 wi2">
+            <img src="./images/wedding2.png" alt="웨딩사진2" class="img-responsive">
         </div>
-        <div class="wi3">
-            <img src="./images/wedding3.jpg" alt="웨딩사진3" class="img-responsive">
+        <div class="col_4 wi3">
+            <img src="./images/wedding3.png" alt="웨딩사진3" class="img-responsive">
         </div>
-        <div class="wi4">
-            <img src="./images/wedding4.jpg" alt="웨딩사진4" class="img-responsive">
+        <div class="col_4 wi4">
+            <img src="./images/wedding4.png" alt="웨딩사진4" class="img-responsive">
         </div>
-        <div class="wi5">
-            <img src="./images/wedding5.jpg" alt="웨딩사진5" class="img-responsive">
+        <div class="col_4 wi5">
+            <img src="./images/wedding5.png" alt="웨딩사진5" class="img-responsive">
         </div>
-        <div class="wi6">
-            <img src="./images/wedding6.jpg" alt="웨딩사진6" class="img-responsive">
+        <div class="col_4 wi6">
+            <img src="./images/wedding6.png" alt="웨딩사진6" class="img-responsive">
         </div>
-        <div class="wi7">
-            <img src="./images/wedding7.jpg" alt="웨딩사진7" class="img-responsive">
+        <div class="col_4 wi7">
+            <img src="./images/wedding7.png" alt="웨딩사진7" class="img-responsive">
         </div>
-        <div class="wi8">
-            <img src="./images/wedding8.jpg" alt="웨딩사진8" class="img-responsive">
+        <div class="col_4 wi8">
+            <img src="./images/wedding8.png" alt="웨딩사진8" class="img-responsive">
         </div>
-        <div class="wi9">
-            <img src="./images/wedding9.jpg" alt="웨딩사진9" class="img-responsive">
+        <div class="col_4 wi9">
+            <img src="./images/wedding9.png" alt="웨딩사진9" class="img-responsive">
         </div>
     </section>
-
+    <section>
+        <p class="img_text">이미지를 누르시면 크게 보실수 있습니다.</p>
+    </section>
+    <section id="map">
+        <h2>오시는 길</h2>
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12652.403192117028!2d126.9173249!3d37.5526889!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb3444b89f49f24f7!2z7Juo65Sp7Iuc6re464uI7LKY!5e0!3m2!1sko!2skr!4v1604986755811!5m2!1sko!2skr" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <div id="app">
+            <a onclick="lddi.AppLink.appMove('',false);return false;" title="K5 찾기 페이지로 이동" class="btn">
+                <img src="../../content/images/main/fixed-btn-01.png" alt="K5 찾기">
+                </a>
+        </div>
+    </section>
 </body>
 </html>
