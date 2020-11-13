@@ -113,7 +113,7 @@ body {
     width: 300px;
     margin: 0 auto;
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     /* font-family: 'Nanum Gothic', sans-serif; */
     /* font-weight: bold; */
     /* text-align: center; */
@@ -197,7 +197,7 @@ margin-left: 0;} */
     margin-right: 30px;
     font-size: 12px;
 }
-#map {margin-top: 60px;}
+#map {margin-top: 70px;}
 #map iframe{
     background: rgb(240, 240, 240);
     /* outline: 1px solid red; */
@@ -245,7 +245,7 @@ margin-left: 0;} */
     /* width: 25%; */
 }
 .map_text {
-    margin-top: 10px;
+    margin-top: -10px;
     margin-bottom: 10px;
 }
 .map_text,.map_text2{
