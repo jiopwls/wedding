@@ -53,6 +53,7 @@ body {
     text-align: center;
     font-family: 'Nanum Gothic', sans-serif;
 }
+#main_text h1 span{margin-left: 3px;}
 #sub_text {
     text-align: right;
     margin-top: 20px;
