@@ -218,11 +218,11 @@ margin-left: 0;} */
     margin: 0 auto;
     margin-bottom: 20px;
     background: rgb(240, 240, 240);
-    height: 125px;
+    height: 90px;
     width: 100%;
     font-family: 'Nanum Gothic', sans-serif;
     text-align: center;
-    /* margin-top: -3px; */
+    margin-top: -3px;
     padding-top: 10px;
 }
 #navi_map div{
@@ -235,10 +235,12 @@ margin-left: 0;} */
 }
 #navi_map div p{
     margin-top: 5px;
+    font-size: 10px;
+    font-weight: bold;
 }
 #navi_map a img {
     top: 50%;
-    width: 80px;
+    width: 50px;
     /* vertical-align: middle; */
     /* width: 25%; */
 }
