@@ -140,7 +140,7 @@ body {
     /* outline: 1px solid black; */
     /* float: left; */
     clear: both;
-    margin-top: -5px;
+    margin-top: -6px;
 }
 /* #phone div i:last-child {
     margin-left: 15px;
@@ -152,11 +152,11 @@ body {
     font-size: 30px;
     clear: both;
     /* margin-right: 15px; */
-    margin-left: 230px;
+    margin-left: 225px;
     vertical-align: middle;
     /* outline: 1px solid green; */
     /* line-height: 40px; */
-    margin-top: -53px;
+    margin-top: -55px;
     color: #000;
 }
 #phone div a{margin-left: 50px;}
