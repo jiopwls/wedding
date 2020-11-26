@@ -152,11 +152,12 @@ body {
     font-size: 30px;
     clear: both;
     /* margin-right: 15px; */
-    margin-left: 20px;
+    margin-left: 230px;
     vertical-align: middle;
     /* outline: 1px solid green; */
     /* line-height: 40px; */
-    margin-top: -10px;
+    margin-top: -53px;
+    color: #000;
 }
 #phone div a{margin-left: 50px;}
 #wedding_img {
