@@ -140,7 +140,7 @@ body {
     /* outline: 1px solid black; */
     /* float: left; */
     clear: both;
-    margin-top: -6px;
+    margin-top: -4px;
 }
 /* #phone div i:last-child {
     margin-left: 15px;
@@ -156,8 +156,9 @@ body {
     vertical-align: middle;
     /* outline: 1px solid green; */
     /* line-height: 40px; */
-    margin-top: -55px;
+    margin-top: -56px;
     color: #000;
+    display: inline-block;
 }
 #phone div a{margin-left: 50px;}
 #wedding_img {
